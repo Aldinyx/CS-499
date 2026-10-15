@@ -1,5 +1,5 @@
 # Hey, it's great to meet you!
-My name is Robert Rossman, and welcome to my portfolio! This portfolio is my capstone for my Bachelor's of Science in Computer Science and it was created in line with requirements set out in Southern New Hampshire University's CS-499 Computer Science Capstone course. 
+My name is Robert Rossman, and welcome to my portfolio! This is my capstone for my Bachelor's of Science in Computer Science and it was created in line with requirements set out in Southern New Hampshire University's CS-499 Computer Science Capstone course. 
 
 Namely, I was tasked with writing a professional self-assessment, performing a code review, and selecting a collection of artifacts from previous courses I completed throughout my time in SNHU's computer science program. 
 
