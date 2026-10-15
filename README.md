@@ -43,6 +43,38 @@ The process of enhancing and modifying the artifact was quite difficult but also
 My biggest diversion came from trying to display the reference photos in a separate window. I completed most of the code for this, even having a window scaled based on the main window and positioned directly beside it, but I struggled with drawing the photos on the second window. While polishing the artifact, I discovered that my issue involved neglecting to share resources from the main window when creating the new window. This troubleshooting process also helped me implement the lighting and background settings by increasing my familiarity with GLFW functions.
 
 # Artifact Two: Event-Tracking App
+<div>
+  <div>
+    <img width="195" height="253" alt="Login Screen" src="https://github.com/user-attachments/assets/100c4114-fe8d-4f2d-b6c3-9d8aa9acead0" />
+    <br>
+    The app's login screen
+  </div>
+  <div>
+    <img width="195" height="252" alt="Sorted Events Screen" src="https://github.com/user-attachments/assets/bbd6fb8f-99cf-4ae0-bdc4-fd8d576c07ea" />
+    <br>
+    The main Event List screen with events sorted by priority
+  </div>
+</div>
+
+<div>
+  <img width="195" height="384" alt="Basic Event Details" src="https://github.com/user-attachments/assets/bf11f5fe-f8bc-4e89-8518-da83a0866310" />
+  The Event Details screen
+</div>
+<div>
+  <img width="195" height="113" alt="Recurrence Period Enhancement" src="https://github.com/user-attachments/assets/5cac3ab8-8f63-4901-bf18-34ac240a6987" />
+  The recurring events setting enhancement
+</div>
+<div>
+  <img width="195" height="166" alt="Sorting Priority Setting" src="https://github.com/user-attachments/assets/3ef8590a-b7e6-4642-983e-68b35c8d7f2f" />
+  The sorting priority setting enhancement
+</div>
+<div>
+  <img width="195" height="166" alt="Notification Setting Enhancement" src="https://github.com/user-attachments/assets/bfcf6339-7b92-4ced-86ca-94d26e62c98a" />
+  The notification setting enhancement
+</div>
+
+
+
 ## Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the algorithms and data structure category of my capstone is an event-tracking app I created in SNHU’s CS-360: Mobile Architecture & Programming course in April of 2026. It was built using Android Studio and lets the user track events that have a title, date, and time. Events are listed on a Main activity screen and new events can be created by tapping a plus icon. Once an event is created, it can be edited or deleted by tapping it in the list. The app also checks periodically if an event is happening on the current day and will send an SMS notification for each one that is.
 
