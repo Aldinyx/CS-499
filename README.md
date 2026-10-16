@@ -24,7 +24,8 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
-# [Artifact One: 3D Scene](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
+# Artifact One: 3D Scene
+[Link to Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
 ## Screenshots
 Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting|Orthographic Projection
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -49,7 +50,8 @@ The process of enhancing and modifying the artifact was quite difficult but also
 
 My biggest diversion came from trying to display the reference photos in a separate window. I completed most of the code for this, even having a window scaled based on the main window and positioned directly beside it, but I struggled with drawing the photos on the second window. While polishing the artifact, I discovered that my issue involved neglecting to share resources from the main window when creating the new window. This troubleshooting process also helped me implement the lighting and background settings by increasing my familiarity with GLFW functions.
 
-# [Artifact Two: Event-Tracking App](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
+# Artifact Two: Event-Tracking App
+[Link to Artifact](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
 ## Screenshots
 Login Screen               |Event List Screen with Sorted Events|Event Details Screen
 :-------------------------:|:-------------------------:|:-------------------------:
