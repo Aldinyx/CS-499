@@ -18,13 +18,18 @@ I also enhanced these artifacts to align with the following course outcomes:
 # Professional Self-Assessment
 
 # Code Review
-[![Watch the video](https://img.youtube.com/vi/1-JvbwLivOo/hqdefault.jpg)](https://www.youtube.com/embed/1-JvbwLivOo)
+[![alt text](https://img.youtube.com/vi/1-JvbwLivOo/hqdefault.jpg "Watch the video")](https://www.youtube.com/embed/1-JvbwLivOo)
 
 Before enhancing the three artifacts I selected, I conducted an informal code review. For each artifact I discuss the functionality and errors present in its original version along with my planned enhancements.
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
 # Artifact One: 3D Scene
+![alt text](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_1.png "The 3D Scene with the reference photo display")
+![alt text](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_2.png "The scene with the second reference photo, red lighting, red background")
+![alt text](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_3.png "The scene with the third reference photo, green lighting, green background")
+![alt text](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_4.png "The scene with the fourth reference photo, blue lighting, blue background")
+![alt text](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_5.png "The 3D Scene displayed using an orthographic perspective")
 ## Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the software design and engineering category of my capstone is a 3D scene I created in a Computer Graphics and Visualization course in December of 2025. It uses OpenGL to render a 3D scene built based on a series of reference photographs and features objects modeled using a combination of simple 3D shapes that are textured appropriately. The user can move the camera around the scene using the W, A, S, and D keys for horizontal movement, the Q and E keys for vertical movement, and the mouse to control the camera angle. The user can also switch between a perspective and orthographic display using the P and O keys.
 ## Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
