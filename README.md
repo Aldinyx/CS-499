@@ -24,7 +24,7 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
-# [Artifact One: 3D Scene](https://www.google.com)
+# [Artifact One: 3D Scene](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
 ## Screenshots
 Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting|Orthographic Projection
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -49,44 +49,20 @@ The process of enhancing and modifying the artifact was quite difficult but also
 
 My biggest diversion came from trying to display the reference photos in a separate window. I completed most of the code for this, even having a window scaled based on the main window and positioned directly beside it, but I struggled with drawing the photos on the second window. While polishing the artifact, I discovered that my issue involved neglecting to share resources from the main window when creating the new window. This troubleshooting process also helped me implement the lighting and background settings by increasing my familiarity with GLFW functions.
 
-# Artifact Two: Event-Tracking App
-<div>
-  <div>
-    <img width="195" height="253" alt="Login Screen" src="https://github.com/user-attachments/assets/100c4114-fe8d-4f2d-b6c3-9d8aa9acead0" />
-    <br>
-    The app's login screen
-  </div>
-  <div>
-    <img width="195" height="252" alt="Sorted Events Screen" src="https://github.com/user-attachments/assets/bbd6fb8f-99cf-4ae0-bdc4-fd8d576c07ea" />
-    <br>
-    The main Event List screen with events sorted by priority
-  </div>
-</div>
+# [Artifact Two: Event-Tracking App](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
+## Screenshots
+Login Screen               |Event List Screen with Sorted Events|Event Details Screen
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/login_screen.png)  |  ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/sorted_events_screen.png) | ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/basic_event_details.png)
+Recurring Events Setting|Sorting Priority Setting|Notification Setting
+![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/recurrence_period.png) | ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/sorting_priority_setting.png)| ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/notification_setting.png)
 
-<div>
-  <img width="195" height="384" alt="Basic Event Details" src="https://github.com/user-attachments/assets/bf11f5fe-f8bc-4e89-8518-da83a0866310" />
-  The Event Details screen
-</div>
-<div>
-  <img width="195" height="113" alt="Recurrence Period Enhancement" src="https://github.com/user-attachments/assets/5cac3ab8-8f63-4901-bf18-34ac240a6987" />
-  The recurring events setting enhancement
-</div>
-<div>
-  <img width="195" height="166" alt="Sorting Priority Setting" src="https://github.com/user-attachments/assets/3ef8590a-b7e6-4642-983e-68b35c8d7f2f" />
-  The sorting priority setting enhancement
-</div>
-<div>
-  <img width="195" height="166" alt="Notification Setting Enhancement" src="https://github.com/user-attachments/assets/bfcf6339-7b92-4ced-86ca-94d26e62c98a" />
-  The notification setting enhancement
-</div>
-
-
-
-## Briefly describe the artifact. What is it? When was it created?
+## Narrative
+### Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the algorithms and data structure category of my capstone is an event-tracking app I created in SNHU’s CS-360: Mobile Architecture & Programming course in April of 2026. It was built using Android Studio and lets the user track events that have a title, date, and time. Events are listed on a Main activity screen and new events can be created by tapping a plus icon. Once an event is created, it can be edited or deleted by tapping it in the list. The app also checks periodically if an event is happening on the current day and will send an SMS notification for each one that is.
 
 The app also features a simple login screen that allows users to create a login with a username and password combination or login with an existing combination. On first login, the app will also request the necessary permissions to send SMS notifications. Importantly, the app will still function even if these permissions are denied.
-## Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
+### Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
 I selected this item because I believe it shows a breadth of skills and many of its core features involve algorithms and data structures. The app showcases my skills as a software developer through its logical flow that makes it accessible and easy to use. Ultimately, the data structures I created to store events and logins come together with the algorithms I use to manipulate them to form a simple, general-purpose application.
 
 The artifact was primarily improved by adding three new features to events. One of these is the ability to make an event recurring. When creating or editing an event, there is now a new text field labeled “Days Till event Recurs.” This text field accepts a number and, if set to a value greater than zero, will make the event “recur” the set number of days later upon its conclusion. To implement this, I refactored the code to use two services that each have their own looping timer. One timer is slower and loops every 6 hours, while one is faster and loops every minute. The slower timer is used to send SMS notifications and store any events concluding within a day. These stored events are then used by the faster timer to check if any events that are known to conclude soon have concluded in the past minute. Upon an event’s conclusion, it is either deleted or its date is incremented by its set “Days Till Event Recurs” value.
@@ -94,13 +70,13 @@ The artifact was primarily improved by adding three new features to events. One 
 The second new feature added to events is the ability to sort events by priority. When creating or editing an event, there is a new NumberPicker labeled “Sorting Priority” that allows the user to pick a number from one to five. This number will then determine the placement of the event on the main event list screen, with higher priority events being listed before lower priority events. This was done by creating a custom Comparator class that compares events using their sorting priority, sorting the list of events using this Comparator, and reversing the sorted list so that the events appear in descending order of priority rather than ascending.
 
 The last new feature added to events is a simple notification setting picker. By default, events will send an SMS text notification on the day they conclude. With this setting, users can now also set an event to send no notification upon its conclusion. This uses a picker as opposed to a simple toggle to account for the possibility of future notification settings.
-## Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
+### Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
 I planned to meet course outcomes one, two, and three with this enhancement. I feel that I have adequately met course outcome one, as the app already supported organizational decision-making to some degree prior to any enhancements. The improvements further this goal by giving even more opportunities for organization with sorting priorities and the automation possibilities using recurring events.
 
 I also feel I met course outcome two, as the app is clean and communicates its function well. However, some of its implementation could still probably be clearer or otherwise allow for more customization. Namely, the notification feature is still rigid, and more could be done to ensure the app is adapted to more audiences. This could include adding an option for push notifications or giving more options pertaining to when the user should be notified of an upcoming event.
 
 Lastly, I feel that I have met course outcome three as the new recurring event and sorting priority features both required an adherence to algorithmic principles and a consideration of trade-offs. Efforts were also made to reduce the number of intensive operations happening frequently by splitting up checks into a slower and faster timer.
-## Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
+### Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
 The process of enhancing and modifying the artifact was characterized by a series of small improvements and course-corrections over time. I was able to complete all the features I planned to, but the exact implementation of these features differs from my initial conception. 
 
 For instance, I initially used a NumberPicker with custom values for the recurring event option. This NumberPicker featured values like “Recur Every Day,” “Recur Every Week,” and “Recur Every Year.” This is more convenient than the current implementation in several ways, but I was troubled by the number of edge cases that were not covered. For example, while adding options for recurring every one to six days and every week may work well enough for most situations, what if a user wants an event that recurs every week and a half? It became apparent that offering the ability to input any number of days increased functionality. Usability could perhaps be increased while maintaining functionality if this field were to be coupled with a NumberPicker that allows the user to specify between days, months, and years.
