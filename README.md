@@ -24,9 +24,9 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
-# Artifact One: 3D Scene
+# [Artifact One: 3D Scene](https://www.google.com)
 ## Screenshots
-1st Reference Photo with Default Lighting/Background|Low Angle with Darker/More Dramatic Lighting|Orthographic Perspective
+Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting|Orthographic Projection
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_1.png)  |  ![](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_2.png) | ![](https://github.com/Aldinyx/CS-330/blob/capstone-enhancements/Screenshots/screenshot_3.png)
 2nd Reference Photo with Red Lighting/Background|3rd Reference Photo with Green Lighting/Background|4th Reference Photo with Blue Lighting/Background
