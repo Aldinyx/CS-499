@@ -46,7 +46,7 @@ In the end, most of these enhancements were completed, but some were changed or 
 
 | Scene with Default Lighting/Background and Reference Photo Display | **let** | **const** |
 |-----|-----|-----|
-|![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png)| Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
+|![](/screenshot/artifact_1/screenshot_4.png)| Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
 
 # Artifact One: 3D Scene
 [Link to the Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
