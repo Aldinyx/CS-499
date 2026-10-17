@@ -43,7 +43,7 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
 # Artifact One: 3D Scene
-[Link to Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
+[Link to the Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
 ## Screenshots
 Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting|Orthographic Projection
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -69,7 +69,7 @@ The process of enhancing and modifying the artifact was quite difficult but also
 My biggest diversion came from trying to display the reference photos in a separate window. I completed most of the code for this, even having a window scaled based on the main window and positioned directly beside it, but I struggled with drawing the photos on the second window. While polishing the artifact, I discovered that my issue involved neglecting to share resources from the main window when creating the new window. This troubleshooting process also helped me implement the lighting and background settings by increasing my familiarity with GLFW functions.
 
 # Artifact Two: Event-Tracking App
-[Link to Artifact](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
+[Link to the Artifact](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
 ## Screenshots
 Login Screen               |Event List Screen with Sorted Events|Event Details Screen
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -104,15 +104,20 @@ For instance, I initially used a NumberPicker with custom values for the recurri
 The sorting priority feature required less iteration, but it differs significantly from my initial conception. Originally, I imagined sorting events by categories or symbols, but it was unclear how this would manifest in the event list. Partially due to this lack of clarity, it made more sense to make the feature's effect on sorting more explicit by trading out the sorting “categories” for a numerical priority. I think this final implementation is both easier to understand and more useful.
 
 # Artifact Three: Animal Shelter Database Dashboard
-[Link to Artifact](https://github.com/Aldinyx/CS-340)
+[Link to the Artifact](https://github.com/Aldinyx/CS-340)
 ## Screenshots
+Dashboard Overview         |Admin Features             | Sorting Filters
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/dashboard_overview.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/admin_features.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/filters.png)
+Entry Text Inputs          |Geo-Location Chart         |Pie Chart
+![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/entry_text_inputs.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/geolocation_chart.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/pie_chart.png)
 ## Narrative
-# Briefly describe the artifact. What is it? When was it created?
+### Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the databases category of my capstone is database dashboard for a fictional rescue-animal training company I created for SNHU’s CS-340: Client/Server Development course in February of 2026. It was built using PyMongo and JupyterLab to interface with a MongoDB animal shelter database. Additionally, a CRUD (Create, Read, Update, Delete) module was created and used for the project. 
 
-Dash is also used to display a user-friendly dashboard. This dashboard features radio buttons that let the user filter for types of rescue dogs and a data table for selecting and viewing animal entries. There is also a pie chart that displays the quantities of the breeds of animals currently being shown in the data table and a map that shows the geolocation of the currently selected animal.
+Dash is also used to display a user-friendly dashboard. This dashboard features radio buttons that let the user filter for types of rescue dogs and a data table for selecting and viewing animal entries. There is also a pie chart that displays the quantities of the breeds of animals currently being shown in the data table and a map that shows the geo-location of the currently selected animal.
 
-# Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
+### Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
 I selected this artifact because it shows clear integration and manipulation of a database for practical purposes. Not only does this artifact show my knowledge of databases, but it also shows my proficiency with several tools through the integration of MongoDB, JupyterLab, and Dash. 
 
 I also felt that this artifact was a good choice as it had plenty of room for sensible improvements. Despite an entire CRUD module being created for this project, the original version of the Dash dashboard only really made use of the “Read” functionality. To create a new entry, update an existing entry, or delete an existing entry, one would need to run commands in the terminal. Given that the idea behind the project was to help a rescue-animal training company sort through animal shelter data, this was not very user friendly or efficient.
@@ -120,11 +125,11 @@ I also felt that this artifact was a good choice as it had plenty of room for se
 Thus, my improvements primarily involved allowing the user to Create, Update, and Delete entries via the Dash dashboard and augmenting these additions with some new security features. On the dashboard, there is now a column of text input boxes with labels corresponding to the values of entries in the table. When an entry is selected, these input boxes are automatically filled with the entry’s information. Users can edit these input boxes and then press one of three new buttons to either create a new entry with the input values, update the selected entry with the input values, or delete the selected entry. When one of these buttons is pressed, the data table on the dashboard is updated accordingly.
 
 To add a layer of security, these buttons are considered admin features. For a button to work, the user must type a valid password in a new Admin Authorization text input box. This forces each admin action to be authorized, preventing a potential malicious actor from having full privileges simply by accessing the dashboard. There is also a text display that informs the user of whether their attempted action succeeded or failed.
-# Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
+### Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
 I planned to meet course outcomes four and five with this enhancement. I feel that I have met course outcome four, as the new features on the dashboard demonstrate my ability to use innovative tools. Beyond this, the enhancements deliver significant value by providing a user-friendly way to access previously neglected CRUD methods.
 
 I feel that I have met course outcome five as the powerful new admin features have been coupled with a layer of security. By forcing users to authorize every admin action, I am adhering to a Defense in Depth mindset. This is furthered by having the Admin Authorization input box clear after every button press, thus preventing an unauthorized user from accessing admin features if a dashboard with a valid entered authorization password is left unattended.
-# Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
+### Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
 The process of enhancing and modifying this artifact was surprisingly difficult at times. This project was originally built in a virtual machine supplied by the course I built it in. Perhaps my biggest challenge was getting the artifact running on my own device as it required many installations and dependencies, like the Austin Animal Shelter dataset, Python, Jupyter Lab, MongoDB, a MongoDB Command Line Database Tool to use the “mongoimport” command, Mongo Shell, PyMongo, and Dash.
 
 After getting the project running, things were still not entirely simple. I quickly decided to use a series of input boxes as this would likely be the best way to let the user edit all values of an entry. This required me to broaden my understanding of how Dash callbacks work. I eventually figured out that updating each input box required including it as an output for a callback triggered by selecting an entry in the data table. 
