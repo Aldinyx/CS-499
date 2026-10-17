@@ -78,7 +78,7 @@ My biggest diversion came from trying to display the reference photos in a separ
 |-------------------------|-------------------------|-------------------------|
 | ![](screenshots/artifact_2/login_screen.png) | ![](screenshots/artifact_2/sorted_events_screen.png) | ![](screenshots/artifact_2/basic_event_details.png) |
 Recurring Events Setting|Sorting Priority Setting|Notification Setting
-| ![](screenshots/artifact_2recurrence_period.png) | ![](screenshots/artifact_2/sorting_priority_setting.png) | ![](screenshots/artifact_2/notification_setting.png) |
+| ![](screenshots/artifact_2/recurrence_period.png) | ![](screenshots/artifact_2/sorting_priority_setting.png) | ![](screenshots/artifact_2/notification_setting.png) |
 
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
@@ -113,7 +113,7 @@ The sorting priority feature required less iteration, but it differs significant
 | Dashboard Overview       | Admin Features            | Sorting Filters |
 |--------------------------|---------------------------|-----------------|
 | ![](screenshots/artifact_3/dashboard_overview.png) | ![](screenshots/artifact_3/admin_features.png) | ![](screenshots/artifact_3/filters.png) |
-Entry Text Inputs          |Geo-Location Chart         |Pie Chart
+| Entry Text Inputs          | Geo-Location Chart         | Pie Chart |
 | ![](screenshots/artifact_3/entry_text_inputs.png) | ![](screenshots/artifact_3/geolocation_chart.png) | ![](screenshots/artifact_3/pie_chart.png) |
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
