@@ -73,11 +73,12 @@ My biggest diversion came from trying to display the reference photos in a separ
 # Artifact Two: Event-Tracking App
 [Link to the Artifact](https://github.com/Aldinyx/CS-360/blob/main/Event-Tracking%20App.zip)
 ## Screenshots
-Login Screen               |Event List Screen with Sorted Events|Event Details Screen
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/login_screen.png)  |  ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/sorted_events_screen.png) | ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/basic_event_details.png)
+
+| Login Screen            | Event List Screen with Sorted Events | Event Details Screen |
+|-------------------------|-------------------------|-------------------------|
+| ![](screenshots/artifact_2/login_screen.png) | ![](screenshots/artifact_2/sorted_events_screen.png) | ![](screenshots/artifact_2/basic_event_details.png) |
 Recurring Events Setting|Sorting Priority Setting|Notification Setting
-![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/recurrence_period.png) | ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/sorting_priority_setting.png)| ![](https://github.com/Aldinyx/CS-360/blob/main/Screenshots/notification_setting.png)
+| ![](screenshots/artifact_2recurrence_period.png) | ![](screenshots/artifact_2/sorting_priority_setting.png) | ![](screenshots/artifact_2/notification_setting.png) |
 
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
@@ -108,11 +109,12 @@ The sorting priority feature required less iteration, but it differs significant
 # Artifact Three: Animal Shelter Database Dashboard
 [Link to the Artifact](https://github.com/Aldinyx/CS-340)
 ## Screenshots
-Dashboard Overview         |Admin Features             | Sorting Filters
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/dashboard_overview.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/admin_features.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/filters.png)
+
+| Dashboard Overview       | Admin Features            | Sorting Filters |
+|--------------------------|---------------------------|-----------------|
+| ![](screenshots/artifact_3/dashboard_overview.png) | ![](screenshots/artifact_3/admin_features.png) | ![](screenshots/artifact_3/filters.png) |
 Entry Text Inputs          |Geo-Location Chart         |Pie Chart
-![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/entry_text_inputs.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/geolocation_chart.png) | ![](https://github.com/Aldinyx/CS-340/blob/main/Screenshots/pie_chart.png)
+| ![](screenshots/artifact_3/entry_text_inputs.png) | ![](screenshots/artifact_3/geolocation_chart.png) | ![](screenshots/artifact_3/pie_chart.png) |
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the databases category of my capstone is database dashboard for a fictional rescue-animal training company I created for SNHU’s CS-340: Client/Server Development course in February of 2026. It was built using PyMongo and JupyterLab to interface with a MongoDB animal shelter database. Additionally, a CRUD (Create, Read, Update, Delete) module was created and used for the project. 
