@@ -115,6 +115,7 @@ The sorting priority feature required less iteration, but it differs significant
 | ![](screenshots/artifact_3/dashboard_overview.png) | ![](screenshots/artifact_3/admin_features.png) | ![](screenshots/artifact_3/filters.png) |
 | Entry Text Inputs          | Geo-Location Chart         | Pie Chart |
 | ![](screenshots/artifact_3/entry_text_inputs.png) | ![](screenshots/artifact_3/geolocation_chart.png) | ![](screenshots/artifact_3/pie_chart.png) |
+
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the databases category of my capstone is database dashboard for a fictional rescue-animal training company I created for SNHU’s CS-340: Client/Server Development course in February of 2026. It was built using PyMongo and JupyterLab to interface with a MongoDB animal shelter database. Additionally, a CRUD (Create, Read, Update, Delete) module was created and used for the project. 
