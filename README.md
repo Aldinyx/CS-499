@@ -42,6 +42,8 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
+![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png)
+
 | Scene with Default Lighting/Background and Reference Photo Display | **let** | **const** |
 |-----|-----|-----|
 |![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png)| Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
