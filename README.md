@@ -40,11 +40,11 @@ My third artifact was chosen to display my skills in Databases and is an animal 
 
 Before enhancing the three artifacts I selected, I conducted an informal code review. For each artifact I discuss the functionality and errors present in its original version along with my planned enhancements.
 
-In the end, most of these enhancements were completed, but some were changed or scaled back during implementation. WOOOO
+In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
 | Scene with Default Lighting/Background and Reference Photo Display | **let** | **const** |
 |-----|-----|-----|
-| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
+| ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png) | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
 
 # Artifact One: 3D Scene
 [Link to the Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
@@ -53,7 +53,7 @@ In the end, most of these enhancements were completed, but some were changed or 
 | Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting | Orthographic Projection |
 |-------------------------|-------------------------|-------------------------|
 ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_1.png)  |  ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_2.png) | ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_3.png)
-2nd Reference Photo with Red Lighting/Background|3rd Reference Photo with Green Lighting/Background|4th Reference Photo with Blue Lighting/Background
+2nd Reference Photo with Red Lighting/Background | 3rd Reference Photo with Green Lighting/Background | 4th Reference Photo with Blue Lighting/Background
 ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png) | ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_5.png)| ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_6.png)
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
