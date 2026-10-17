@@ -40,7 +40,7 @@ My third artifact was chosen to display my skills in Databases and is an animal 
 
 Before enhancing the three artifacts I selected, I conducted an informal code review. For each artifact I discuss the functionality and errors present in its original version along with my planned enhancements.
 
-In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
+In the end, most of these enhancements were completed, but some were changed or scaled back during implementation. WOOOO
 
 | Scene with Default Lighting/Background and Reference Photo Display | **let** | **const** |
 |-----|-----|-----|
