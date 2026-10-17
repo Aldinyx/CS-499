@@ -48,7 +48,7 @@ In the end, most of these enhancements were completed, but some were changed or 
 
 | Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting | Orthographic Projection |
 |-------------------------|-------------------------|-------------------------|
-![](artifact_1/screenshot_1.png)  |  ![](screenshots/artifact_1/screenshot_2.png) | ![](screenshots/artifact_1/screenshot_3.png)
+![](screenshots/artifact_1/screenshot_1.png)  |  ![](screenshots/artifact_1/screenshot_2.png) | ![](screenshots/artifact_1/screenshot_3.png)
 2nd Reference Photo with Red Lighting/Background | 3rd Reference Photo with Green Lighting/Background | 4th Reference Photo with Blue Lighting/Background
 ![](screenshots/artifact_1/screenshot_4.png) | ![](screenshots/artifact_1/screenshot_5.png)| ![](screenshots/artifact_1/screenshot_6.png)
 ## Narrative
