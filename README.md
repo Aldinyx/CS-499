@@ -42,21 +42,15 @@ Before enhancing the three artifacts I selected, I conducted an informal code re
 
 In the end, most of these enhancements were completed, but some were changed or scaled back during implementation.
 
-![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png)
-
-| Scene with Default Lighting/Background and Reference Photo Display | **let** | **const** |
-|-----|-----|-----|
-|![](/screenshot/artifact_1/screenshot_4.png)| Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
-
 # Artifact One: 3D Scene
 [Link to the Artifact](https://github.com/Aldinyx/CS-330/blob/main/3D%20Scene.zip)
 ## Screenshots
 
 | Scene with Default Lighting/Background and Reference Photo Display|Low Angle with More Dramatic Lighting | Orthographic Projection |
 |-------------------------|-------------------------|-------------------------|
-![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_1.png)  |  ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_2.png) | ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_3.png)
+![](artifact_1/screenshot_1.png)  |  ![](screenshots/artifact_1/screenshot_2.png) | ![](screenshots/artifact_1/screenshot_3.png)
 2nd Reference Photo with Red Lighting/Background | 3rd Reference Photo with Green Lighting/Background | 4th Reference Photo with Blue Lighting/Background
-![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_4.png) | ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_5.png)| ![](https://github.com/Aldinyx/CS-330/blob/main/Screenshots/screenshot_6.png)
+![](screenshots/artifact_1/screenshot_4.png) | ![](screenshots/artifact_1/screenshot_5.png)| ![](screenshots/artifact_1/screenshot_6.png)
 ## Narrative
 ### Briefly describe the artifact. What is it? When was it created?
 The artifact I enhanced for the software design and engineering category of my capstone is a 3D scene I created in a Computer Graphics and Visualization course in December of 2025. It uses OpenGL to render a 3D scene built based on a series of reference photographs and features objects modeled using a combination of simple 3D shapes that are textured appropriately. The user can move the camera around the scene using the W, A, S, and D keys for horizontal movement, the Q and E keys for vertical movement, and the mouse to control the camera angle. The user can also switch between a perspective and orthographic display using the P and O keys.
